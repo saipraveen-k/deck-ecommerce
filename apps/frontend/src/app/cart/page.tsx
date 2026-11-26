@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import api from '../../../lib/api';
-import Header from '../../../components/Header';
-import { useAuthStore } from '../../../store/useAuthStore';
+import api from '@/lib/api';
+import Header from '@/components/Header';
+import { useAuthStore } from '@/store/useAuthStore';
 
 interface CartItem {
     id: number;

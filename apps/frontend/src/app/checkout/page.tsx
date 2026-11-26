@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import api from '../../lib/api';
-import Header from '../../components/Header';
-import { useAuthStore } from '../../store/useAuthStore';
+import api from '@/lib/api';
+import Header from '@/components/Header';
+import { useAuthStore } from '@/store/useAuthStore';
 
 // Declare Razorpay on window
 declare global {

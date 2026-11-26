@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import io from 'socket.io-client';
-import api from '../../../../lib/api';
-import Header from '../../../../components/Header';
-import { useAuthStore } from '../../../../store/useAuthStore';
+import api from '@/lib/api';
+import Header from '@/components/Header';
+import { useAuthStore } from '@/store/useAuthStore';
 
 interface Variant {
     id: number;

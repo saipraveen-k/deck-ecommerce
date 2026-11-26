@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { ShoppingBag, Search, User, Menu } from 'lucide-react';
-import { useAuthStore } from '../store/useAuthStore';
+import { useAuthStore } from '@/store/useAuthStore';
 import { useRouter } from 'next/navigation';
 
 export default function Header() {
